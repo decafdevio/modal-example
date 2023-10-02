@@ -9,8 +9,6 @@ For this assessment, I began by adopting a 'mobile-first' approach. Typically, I
 
 To ensure clarity and adherence to best practices, I utilized HTML5 semantic tags to construct the modal component. In my JavaScript implementation I encorporated arrow functions for more expressive function definitions and a ternary operator making the code more compact and easier to maintain.
 
-While I was unable to incorporate all of the bonus requirements within the given timeframe.
-
 ### 📃 Build a mobile first responsive modal as shown in the two designs below.
 
 Requirements:
@@ -21,8 +19,8 @@ Requirements:
  - [x] Must work on Chrome, FF & Safari
 
 Bonus:
- - [ ] The ability to have more than one modal on the page
- - [ ] BEM
+ - [x] The ability to have more than one modal on the page
+ - [x] BEM
  - [x] ES6
 
 <img src="imgages/../images/j2-1.png" width="200" alt="modal mobile view">
