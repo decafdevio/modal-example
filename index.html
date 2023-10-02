@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css" />
+    </head>
+    <body>
+        <section id="modal" class="modal-position">
+            <article class="modal-container">
+                <section class="modal-content">
+                    <header>
+                        <!-- badge and modal header -->
+                        <img src="/images/check_green.png" height="35px" />
+                        Congratulations your jet2 holiday booking has been confirmed
+                    </header>
+                    <!-- modal message -->
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </section>
+                <aside class="action-buttons">
+                    <!-- modal buttons -->
+                    <div class="btn btn-primary" onclick="modalToggle()">Cancel</div>
+                    <div class="btn btn-action" onclick="modalAction()">Continue</div>
+                </aside>
+            </article>
+        </section>
+
+        <section>
+            <!-- buttons to trigger modal -->
+            <div class="btn btn-action" onclick="modalToggle()">Confirm Booking</div>
+        </section>
+        <script type="text/javascript" src="modal.js"></script>
+    </body>
+</html>

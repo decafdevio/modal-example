@@ -1,0 +1,86 @@
+// variables
+$primary-bold: #1e303d;
+$primary-bg: #f2f2f2;
+$secondary-content: #7f7f81;
+$screen-md-min: 768px;
+
+// queries
+@media (min-width: #{$screen-md-min}) {
+  .modal-position {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .modal-container {
+    max-width: 60vw;
+  }
+  .action-buttons {
+    flex-direction: row !important;
+    justify-content: center;
+  }
+  .btn {
+    min-width: 10rem;
+    margin-right: 0.2rem;
+  }
+}
+
+// elements
+body {
+  margin: auto;
+}
+
+#modal {
+  display: none;
+}
+
+.modal-position {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+}
+
+.modal-container {
+  background-color: $primary-bg;
+}
+
+.modal-content {
+  padding: 2rem;
+  color: $secondary-content;
+  header {
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: $primary-bold;
+  }
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  border-top: 1px solid $secondary-content;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 0.5rem;
+  margin-bottom: 0.2rem;
+  border-radius: 0.2rem;
+  text-align: center;
+  font-weight: 800;
+  font-style: italic;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+.btn-primary {
+  border: 2px solid $primary-bold;
+  color: $secondary-content;
+}
+.btn-action {
+  background-color: $primary-bold;
+  color: white;
+}
