@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="main.css" />
     </head>
     <body>
-        <section id="modal" class="modal-position">
+        <section id="modal-confirmation" class="modal-position">
             <article class="modal-container">
                 <section class="modal-content">
                     <header>
@@ -17,15 +17,15 @@
                 </section>
                 <aside class="action-buttons">
                     <!-- modal buttons -->
-                    <div class="btn btn-primary" onclick="modalToggle()">Cancel</div>
-                    <div class="btn btn-action" onclick="modalAction()">Continue</div>
+                    <div class="btn btn-primary" onclick="modalToggle('modal-confirmation')">Cancel</div>
+                    <div class="btn btn-action" onclick="modalAction('modal-confirmation')">Continue</div>
                 </aside>
             </article>
         </section>
 
         <section>
             <!-- buttons to trigger modal -->
-            <div class="btn btn-action" onclick="modalToggle()">Confirm Booking</div>
+            <div class="btn btn-action" onclick="modalToggle('modal-confirmation')">Confirm Booking</div>
         </section>
         <script type="text/javascript" src="modal.js"></script>
     </body>

@@ -9,7 +9,7 @@ For this assessment, I began by adopting a 'mobile-first' approach. Typically, I
 
 To ensure clarity and adherence to best practices, I utilized HTML5 semantic tags to construct the modal component. In my JavaScript implementation I encorporated arrow functions for more expressive function definitions and a ternary operator making the code more compact and easier to maintain.
 
-While I was unable to incorporate all of the bonus requirements within the given timeframe, my intention was to employ JavaScript to dynamically generate new modal elements, providing the capability to have multiple modals on a single page.
+While I was unable to incorporate all of the bonus requirements within the given timeframe.
 
 ### 📃 Build a mobile first responsive modal as shown in the two designs below.
 
